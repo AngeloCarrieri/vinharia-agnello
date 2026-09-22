@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+header{
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 15px 0px;
+}
+
+
+a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+h1{
+    font-size: 50px;
+    color: #171d1c;
+    margin: 50px 40px 30px;
+}
+
+h2{
+font-size: 50px;
+    color: #a71126;
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+/* img */
+#banner{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.brasao{
+    width: 290px;
+    height: 250px;
+    object-fit: contain;
+    margin: 20px;
+}
+p{
+    font-size: 18px;
+    color: #171d1c;
+    margin: 0px 40px 30px;
+    text-align: justify;
+}
