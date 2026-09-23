@@ -1,36 +1,40 @@
 // Sistema básico de gerenciamento de vinhos
 // Vinheria Agnello
 
-// Coleta de informações do Vinho
+window.onload = function() {
 
-var nomeVinho = prompt("Digite o nome do vinho:");
-var tipoVinho = prompt("Digite o tipo do vinho (Tinto, Branco, Rosé):");
-var safra = prompt("Digite a safra do vinho (ano):");
-var quantidade = prompt("Digite a quantidade em estoque:");
+    // Coleta de informações do Vinho
 
-// Comparações
+    var nomeVinho = prompt("Digite o nome do vinho:");
+    var tipoVinho = prompt("Digite o tipo do vinho (Tinto, Branco, Rosé):");
+    var safra = prompt("Digite a safra do vinho (ano):");
+    var quantidade = prompt("Digite a quantidade em estoque:");
 
-var tipoValido = tipoVinho === "Tinto" || tipoVinho === "Branco" || tipoVinho === "Rosé";
+    // Comparações
 
-var estoqueMaiorQueZero = quantidade > 0;
+    var tipoValido = tipoVinho === "Tinto" || tipoVinho === "Branco" || tipoVinho === "Rosé";
 
-var estoqueZerado = quantidade == 0;
+    var estoqueMaiorQueZero = quantidade > 0;
 
-// Aviso que o cadastro foi concluido
+    var estoqueZerado = quantidade == 0;
 
-alert("Cadastro realizado! Veja os detalhes no console.");
+    // Aviso que o cadastro foi concluido
 
-// Aviso antes de colocar os dados no console 
+    alert("Cadastro realizado! Veja os detalhes no console.");
 
-alert("A seguir, veja os detalhes do vinho no console.");
+    // Aviso antes de colocar os dados no console 
 
-// Exibição dos dados no console
+    alert("A seguir, veja os detalhes do vinho no console.");
 
-console.log("______VINHO CADASTRADO______");
-console.log(`Nome: ${nomeVinho}`);
-console.log(`Tipo: ${tipoVinho}`);
-console.log(`Safra: ${safra}`);
-console.log(`Quantidade em estoque: ${quantidade}`);
-console.log(`O tipo de vinho é válido? ${tipoValido}`);
-console.log(`O estoque é maior que zero? ${estoqueMaiorQueZero}`);
-console.log(`_____________________________`);
+    // Exibição dos dados no console
+
+    console.log("______VINHO CADASTRADO______");
+    console.log(`Nome: ${nomeVinho}`);
+    console.log(`Tipo: ${tipoVinho}`);
+    console.log(`Safra: ${safra}`);
+    console.log(`Quantidade em estoque: ${quantidade}`);
+    console.log(`O tipo de vinho é válido? ${tipoValido}`);
+    console.log(`O estoque é maior que zero? ${estoqueMaiorQueZero}`);
+    console.log(`_____________________________`);
+
+};
